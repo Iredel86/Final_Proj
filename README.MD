@@ -36,7 +36,7 @@ Redux
 # backend
 Please clone the project, using the following command:
 
-git clone https://github.com/idanaduf/idan-finalProject.git
+git clone https://github.com/Iredel86/Final_Proj.git
 Once you have cloned the project, navigate to the following directory:
 
 cd /finalProject/backend/
@@ -51,7 +51,7 @@ In Mac
 virtualenv env:
 
 To use virtual environment in Windows:
-.\env\Scripts\activate
+.\myenv\Scripts\activate
 
 In Mac:
 source env/bin/activate
@@ -75,30 +75,22 @@ Open the file titled 'globalVar.ts' and change the following line:
 
 in render deploy
 
-export const SERVER = "https://gymboree.onrender.com/"
-# docker
-to docker:
-export const SERVER = "http://0.0.0.0:8000"
-# Docker Installation
-Before getting started, please ensure that Docker Desktop is installed on your system. If you haven't already, you can download and install Docker Desktop by following this link.
+export const SERVER = "https://final-back-qviq.onrender.com/"
 
 Once you have cloned the Git repository, enter the following command to change the directory to the project directory:
 
-cd IDANPRO/
-Start the containers using the Docker Compose conmmand:
 
-docker compose up
 
 # LINK to MY WEBSITE
-
+https://remarkable-dolphin-79df5b.netlify.app/
 
 # FRONT
 Once you have cloned the project, navigate to the following directory:
 
-cd /finalProject/frontend/my-app
+cd /Final_Proj/gymboree_front/my-app
 Now you need unstall al the packege for run app
 
 npm i
-Ater all the installation finish
+After all the installation as finished
 
 npm start
