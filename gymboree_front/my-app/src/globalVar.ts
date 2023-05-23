@@ -1,2 +1,2 @@
-export const SERVER:string = "http://127.0.0.1:8000/";
+export const SERVER:string = "https://final-back-qviq.onrender.com/";
 
